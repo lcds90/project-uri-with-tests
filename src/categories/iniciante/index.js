@@ -7,7 +7,7 @@ const findExample = (folder ,file) => {
 const verifyTypeOfTriangle = require('./ex1045');
 const verifyHowMuchTheGameLasts = require('./ex1046');
 module.exports = {
-  path: findExample,
+  findExample,
   ex1045: verifyTypeOfTriangle,
   ex1046: verifyHowMuchTheGameLasts
 };

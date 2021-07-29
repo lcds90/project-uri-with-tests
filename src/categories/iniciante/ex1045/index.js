@@ -33,7 +33,7 @@
   if (isosceles) console.log('TRIANGULO ISOSCELES');
 };
 const { findExample } = require('../');
-const [ex1045One, ex1045Two, ex1045Three, ex1045Four, ex1045Fifth] = [
+const [testOne, testTwo, testThree, testFour, testFifth] = [
   findExample('ex1045', '1'),
   findExample('ex1045', '2'),
   findExample('ex1045', '3'),
@@ -41,11 +41,11 @@ const [ex1045One, ex1045Two, ex1045Three, ex1045Four, ex1045Fifth] = [
   findExample('ex1045', '5'),
 ];
 
-verifyTypeOfTriangleUri(ex1045One);
-verifyTypeOfTriangleUri(ex1045Two);
-verifyTypeOfTriangleUri(ex1045Three);
-verifyTypeOfTriangleUri(ex1045Four);
-verifyTypeOfTriangleUri(ex1045Fifth); */
+verifyTypeOfTriangleUri(testOne);
+verifyTypeOfTriangleUri(testTwo);
+verifyTypeOfTriangleUri(testThree);
+verifyTypeOfTriangleUri(testFour);
+verifyTypeOfTriangleUri(testFifth); */
 // !SECTION
 
 const verifyTypeOfTriangle = (input) => {
