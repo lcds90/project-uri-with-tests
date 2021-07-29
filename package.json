@@ -1,0 +1,15 @@
+{
+  "name": "uri-online-judge-with-tests-pratice",
+  "version": "1.0.0",
+  "description": "Aqui esta todos os meus exercicios realizados na plataforma com testes para validação do resultado esperado",
+  "main": "src/index.js",
+  "author": "lcds90",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}
