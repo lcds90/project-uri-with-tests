@@ -9,9 +9,7 @@ A entrada contém dois valores inteiros representando a hora de início e a hora
 
 Saída
 Apresente a duração do jogo conforme exemplo abaixo.
-
 */
-
 /*
 const { findExample } = require('../');
 const [testOne, testTwo, testThree] = [

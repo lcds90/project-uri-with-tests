@@ -1,5 +1,3 @@
-// export * from './ex1045';
-
 const findExample = (folder ,file) => {
   return require('fs').readFileSync(`${__dirname}/${folder}/stdin/${file}`, 'utf8');
 };
